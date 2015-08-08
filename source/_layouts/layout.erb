@@ -16,12 +16,14 @@
 
   <body class="<%= page_classes %>">
 
-    <header class="site-header">
+    <header class="site-header main_h">
       <div class="container">
         <%= partial "_layouts/nav" %>
       </div>
     </header>
 
+    <%= yield_content :hero %>
+    
     <main class="site-main">
       <div class="container module">
         <%= yield %>

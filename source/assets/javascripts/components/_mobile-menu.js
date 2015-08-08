@@ -25,7 +25,7 @@
   // mobileMenu default options
   $.fn.mobileMenu.options = {
     toggleElem: 'body',
-    toggleClass: 'menu-active'
+    toggleClass: 'menu-active'  
   };
 
 })(jQuery);
