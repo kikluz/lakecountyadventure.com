@@ -5,11 +5,17 @@
   <% end %>
 
   <div class="nav-links">
-    <% link_to '/' do %>
-      <i class="fa fa-star"></i> section 01
+    <% link_to '.sec01', :class => 'jump' do %>
+    <i class="fa fa-user"></i> section 01
     <% end %>
-    <% link_to '/' do %>
-      <i class="fa fa-eye"></i> Docs
+    <% link_to '.sec02', :class => 'jump' do %>
+    <i class="fa fa-user"></i> section 02
+    <% end %>
+    <% link_to '.sec03', :class => 'jump' do %>
+    <i class="fa fa-user"></i> section 03
+    <% end %>
+    <% link_to '.sec04', :class => 'jump' do %>
+    <i class="fa fa-user"></i> section 04
     <% end %>
   </div>
   <div class="mobile-menu"><i class="fa fa-navicon"></i></div>
