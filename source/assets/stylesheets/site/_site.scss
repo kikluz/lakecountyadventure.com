@@ -1,6 +1,9 @@
 // ------------------------------------------------------------
 // Layout
 // ------------------------------------------------------------
+// colores
+$color: #8f8f8f;
+$color2: #e8f380;
 body {
   color: $color;
   background: white;
@@ -44,6 +47,11 @@ h4, h5, h6 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
 }
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
 
 // ------------------------------------------------------------
 // Site Nav
@@ -80,7 +88,7 @@ h4, h5, h6 {
 	.nav-links {
 		height: 0;
 		overflow: hidden;
-
+    float: right;
 		@include media($medium-screen) {
 			height: auto;
 		}
@@ -175,10 +183,6 @@ h4, h5, h6 {
   }
 }
 
-// colores
-$color: #8f8f8f;
-$color2: #e8f380;
-
 // Navigation
 .main_h {
   position: fixed;
@@ -231,7 +235,7 @@ $color2: #e8f380;
     float: none;
   }
 }
-
+/*
 .section-links {
   float: right;
   width: 60%;
@@ -269,7 +273,7 @@ $color2: #e8f380;
     }
   }
 }
-
+*/
 .mobile-toggle {
   display: none;
   cursor: pointer;
@@ -309,11 +313,7 @@ $color2: #e8f380;
 
 
 
-p {
-  margin-bottom: 20px;
-  font-size: 17px;
-  line-height: 2;
-}
+
 
 .content {
   padding: 50px 2% 250px;
