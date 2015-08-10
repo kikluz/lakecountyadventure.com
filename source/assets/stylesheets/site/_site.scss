@@ -179,7 +179,7 @@ p {
 // ------------------------------------------------------------
 // MQ trigger
 @mixin small {
-  @media only screen and (max-width: 766px) {
+  @include media($medium-screen) {
     @content;
   }
 }
@@ -274,7 +274,7 @@ p {
     }
   }
 }
-*/
+
 .mobile-toggle {
   display: none;
   cursor: pointer;
@@ -307,18 +307,11 @@ p {
   position: relative;
   padding: 0 2%;
 }
-
-
-
-
-
-
-
-
-
+*/
+/*
 .content {
   padding: 50px 2% 250px;
-}
+}*/
 
 .hero-unit {
   position: relative;
