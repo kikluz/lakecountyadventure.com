@@ -179,7 +179,9 @@ $color2: #e8f380;
   width: 100%;
   padding-top: 17px;
   background: none;
-  overflow: hidden;
+   @include media($medium-screen) {
+    overflow: hidden;
+  }
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0;
