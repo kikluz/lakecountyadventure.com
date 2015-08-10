@@ -202,9 +202,6 @@ p {
   top: -100px;
   padding-bottom: 6px;
   font-family: "Montserrat", sans-serif;
-  @include small {
-    padding-top: 25px;
-  }
 }
 
 .open-nav {
