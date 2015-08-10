@@ -204,14 +204,6 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-.open-nav {
-  max-height: 400px !important;
-  .mobile-toggle {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-  }
-}
-
 .sticky {
   background-color: rgba(255, 255, 255, 0.93);
   opacity: 1;
@@ -219,20 +211,6 @@ p {
   border-bottom: 1px solid lighten($color, 30%);
 }
 
-.logo {
-  width: 50px;
-  font-size: 25px;
-  color: $color;
-  text-transform: uppercase;
-  float: left;
-  display: block;
-  margin-top: 0;
-  line-height: 1;
-  margin-bottom: 10px;
-  @include small {
-    float: none;
-  }
-}
 /*
 .section-links {
   float: right;
