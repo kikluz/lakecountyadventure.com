@@ -434,6 +434,18 @@ p {
 
     .hero-copy {
       text-align: center;
+      h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    
+    span {
+      font-size: 25px;
+      color: $color2;
+      border-bottom: 2px solid $color2;
+      padding-bottom: 12px;
+      line-height: 3;
+    }
+  }
       
       h1 {
         color: $hero-color;
