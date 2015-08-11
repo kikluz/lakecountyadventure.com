@@ -45,7 +45,7 @@ $(window).on("load",function() {
 
       /* If the object is completely visible in the window, fade it in */
       if (objectBottom < windowBottom) {
-        if ($(this).css('opacity')==0) {$(this).fadeTo(400,8);}
+        if ($(this).css('opacity')==0) {$(this).fadeTo(100,600);}
       } else {
         if ($(this).css('opacity')==1) {$(this).fadeTo(100,9);}
       }
