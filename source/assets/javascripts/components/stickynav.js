@@ -45,9 +45,9 @@ $(window).on("load",function() {
 
       /* If the object is completely visible in the window, fade it in */
       if (objectBottom < windowBottom) {
-        if ($(this).css('opacity')==0) {$(this).fadeTo(900,9);}
+        if ($(this).css('opacity')==0) {$(this).fadeTo(200,3);}
       } else {
-        if ($(this).css('opacity')==1) {$(this).fadeTo(700,0);}
+        if ($(this).css('opacity')==1) {$(this).fadeTo(400,9);}
       }
     });
   }
